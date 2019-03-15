@@ -8,7 +8,7 @@ public class driver {
     public static Connection connect(Connection conn) {
         try {
             // db parameters
-            String url = "jdbc:sqlite:C:/Users/mexva/IdeaProjects/20Questions/db/dbtest.db";
+            String url = "jdbc:sqlite:C:/Users/michael.vance/Desktop/20Questions/db/dbtest.db"; //I want to add a abstract string
             // create a connection to the database
             conn = DriverManager.getConnection(url);
 
